@@ -12,4 +12,3 @@ class DatabaseServiceProjectApplicationTests {
     void contextLoads() {
     }
 }
-
