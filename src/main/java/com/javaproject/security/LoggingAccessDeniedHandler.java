@@ -20,7 +20,7 @@ public class LoggingAccessDeniedHandler implements AccessDeniedHandler {
             AccessDeniedException accessDeniedException) throws IOException, ServletException {
         // get the user from the security context
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-
+         // log the attempt
         // "log" the attempt
         if (auth != null) {
             String format = "%s was trying to access %s\n";
