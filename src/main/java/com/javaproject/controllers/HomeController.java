@@ -22,7 +22,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.javaproject.beans.BoardGame;
 import com.javaproject.beans.Review;
 import com.javaproject.database.DatabaseAccess;
-
+# end
 @Controller
 public class HomeController {
 
