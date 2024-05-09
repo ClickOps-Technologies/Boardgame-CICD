@@ -36,4 +36,3 @@ values (1, 'Collecting gemstones makes me feel like a wealthy merchant. Highly r
 insert into reviews (gameId, text)
 values (2, 'A detective game to guess the criminal, weapon, and place of the crime scene. It is more fun with more than 3 players.');
 
-# end
